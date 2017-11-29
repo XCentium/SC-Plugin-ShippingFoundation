@@ -23,7 +23,7 @@ How to Install
     "Custom.Plugin.Shipping": "1.0.1",
 
 3. To your ServiceCollectionExtensions.cs class, replace:
-
+```
 .Add<CalculateCartLinesFulfillmentBlock>()
 
 With:
@@ -37,8 +37,8 @@ and
 with
 
 .Add<TestCartShipping>().After<CalculateCartFulfillmentBlock>()
-
-	So that the confic section looks somewhat like below:
+```
+	So that the config section looks somewhat like below:
 
 ```
         public static IServiceCollection ConfigureCartPipelines(this IServiceCollection services)
