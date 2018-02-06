@@ -18,9 +18,7 @@ How to Install
 1. Copy it to your Sitecore Commerce Engine Solution and add it as a project 
 
 
-2. Add it as a dependency to your Adventure works or Habitat or Custom Site plugin' project.json file by adding the line below under Dependencies
-
-    "Custom.Plugin.Shipping": "1.0.1",
+2. Add it as a dependency to your Adventure works or Habitat or Custom Site plugin' project
 
 3. To your ServiceCollectionExtensions.cs class, replace:
 ```
