@@ -1,5 +1,5 @@
 ﻿
-Sitecore Commerce Engine Custom Shipping plugin
+Sitecore Commerce Engine Custom Shipping plugin (Sitecore Commerce 9)
 ======================================
 
 This plugin allows the user to override default Sitecore Commerce Engine Fulfillment. It can be used as a basis for your custom shipping price. 
